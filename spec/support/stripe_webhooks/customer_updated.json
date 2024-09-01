@@ -1,0 +1,48 @@
+{
+  "api_version": "2024-06-20",
+  "created": 1725184815,
+  "data": {
+    "object": {
+      "address": null,
+      "balance": 0,
+      "created": 1724859377,
+      "currency": "eur",
+      "default_source": null,
+      "delinquent": false,
+      "description": null,
+      "discount": null,
+      "email": "voldyhotbox@gmail.com",
+      "id": "cus_QkIVyFJekJMYbR",
+      "invoice_prefix": "62CD4B9A",
+      "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": "pm_1PuAZr1ys6gw4QBOh7uEMu6C",
+        "footer": null,
+        "rendering_options": null
+      },
+      "livemode": false,
+      "metadata": {},
+      "name": "Test Customer",
+      "object": "customer",
+      "phone": null,
+      "preferred_locales": [],
+      "shipping": null,
+      "tax_exempt": "none",
+      "test_clock": null
+    },
+    "previous_attributes": {
+      "invoice_settings": {
+        "default_payment_method": null
+      }
+    }
+  },
+  "id": "evt_1PuAZv1ys6gw4QBOGBS9E5gI",
+  "livemode": false,
+  "object": "event",
+  "pending_webhooks": 2,
+  "request": {
+    "id": null,
+    "idempotency_key": "58901eab-21ba-46fb-ae44-737355c9f412"
+  },
+  "type": "customer.updated"
+}

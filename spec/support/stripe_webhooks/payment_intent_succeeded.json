@@ -1,0 +1,101 @@
+{
+  "api_version": "2024-06-20",
+  "created": 1725184814,
+  "data": {
+    "object": {
+      "amount": 1000,
+      "amount_capturable": 0,
+      "amount_details": {
+        "tip": {}
+      },
+      "amount_received": 1000,
+      "application": null,
+      "application_fee_amount": null,
+      "automatic_payment_methods": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "capture_method": "automatic",
+      "client_secret": "pi_3PuAVa1ys6gw4QBO08v2gGPG_secret_6ztXB2oFkofIATIj3s08sBaje",
+      "confirmation_method": "automatic",
+      "created": 1725184546,
+      "currency": "eur",
+      "customer": "cus_QkIVyFJekJMYbR",
+      "description": "Subscription creation",
+      "id": "pi_3PuAVa1ys6gw4QBO08v2gGPG",
+      "invoice": "in_1PuAS71ys6gw4QBObC7Qp6mo",
+      "last_payment_error": null,
+      "latest_charge": "ch_3PuAVa1ys6gw4QBO0d56Zumm",
+      "livemode": false,
+      "metadata": {},
+      "next_action": null,
+      "object": "payment_intent",
+      "on_behalf_of": null,
+      "payment_method": "pm_1PuAZr1ys6gw4QBOh7uEMu6C",
+      "payment_method_configuration_details": null,
+      "payment_method_options": {
+        "bancontact": {
+          "preferred_language": "en"
+        },
+        "card": {
+          "installments": null,
+          "mandate_options": null,
+          "network": null,
+          "request_three_d_secure": "automatic",
+          "setup_future_usage": "off_session"
+        },
+        "eps": {},
+        "giropay": {},
+        "ideal": {},
+        "link": {
+          "persistent_token": null
+        },
+        "p24": {},
+        "paypal": {
+          "preferred_locale": null,
+          "reference": null
+        },
+        "sepa_debit": {},
+        "sofort": {
+          "preferred_language": null
+        },
+        "wechat_pay": {
+          "app_id": null,
+          "client": null
+        }
+      },
+      "payment_method_types": [
+        "bancontact",
+        "card",
+        "eps",
+        "giropay",
+        "ideal",
+        "link",
+        "p24",
+        "paypal",
+        "sepa_debit",
+        "sofort",
+        "wechat_pay"
+      ],
+      "processing": null,
+      "receipt_email": null,
+      "review": null,
+      "setup_future_usage": null,
+      "shipping": null,
+      "source": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "id": "evt_3PuAVa1ys6gw4QBO08y5amKu",
+  "livemode": false,
+  "object": "event",
+  "pending_webhooks": 2,
+  "request": {
+    "id": null,
+    "idempotency_key": "a239c046-3d1f-4248-bb9f-fc94c6bac930"
+  },
+  "type": "payment_intent.succeeded"
+}
