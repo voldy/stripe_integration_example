@@ -80,6 +80,7 @@ This application follows an **event-driven approach** and employs a **layered ar
 
 The following is a logical structure of the application. While models, views, controllers, and jobs follow the standard Rails directory structure, they are logically categorized into different layers as shown below:
 
+```
 app/
 ├── domains/                   # Domain layer
 │   ├── billing/               # Billing domain
@@ -97,5 +98,6 @@ app/
 └── interface/                 # Interface layer
     ├── controllers/           # Web controllers
     └── views/                 # Views
+```
 
 This logical structure ensures that the business logic is decoupled from the infrastructure and interface layers, facilitating easier maintenance and scalability.
